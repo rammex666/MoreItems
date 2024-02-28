@@ -1,0 +1,9 @@
+name: moreitems
+version: '${project.version}'
+main: org.rammex.moreitems.Moreitems
+api-version: '1.20'
+commands:
+    moreitems:
+        description: 'Commande principale de MoreItems'
+        permission: 'moreitems.admin'
+        aliases: [mi]
